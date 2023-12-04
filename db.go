@@ -59,3 +59,6 @@ func GetMenuItems() ([]MenuItem, error) {
 
     return items, nil
 }
+
+var tester int = 16
+fmt.rintln(tester)
