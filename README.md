@@ -5,7 +5,9 @@ The API facilitates CRUD operations for creating, retrieving, updating, and dele
 
 ## Features
 **CRUD Operations:** Create, read, update, and delete operations for student records.
+
 **DB Integration:** Integration with MongoDB for persistent storage.
+
 **Real-World Scenario:** Implements a Student Management API for educational institutions.
 
 ## Getting Started
