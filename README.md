@@ -57,4 +57,9 @@ Delete Student:
 ```
 ## Sequence Diagram
 
+<img width="503" alt="uml" src="https://github.com/tavisshiChauhan/Zopsmart-Project/assets/125811955/c4c44cde-471a-4e60-b64d-a6bc863e1ff8">
+
+
+
+
 ## Testing
