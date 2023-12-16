@@ -11,6 +11,10 @@ The API facilitates CRUD operations for creating, retrieving, updating, and dele
 **Real-World Scenario:** Implements a Student Management API for educational institutions.
 
 ## Getting Started
+#### Prerequisites
+Before running the project make sure you have mongoDB database created.
+
+
 Follow these instructions to get a copy of the project up and running on your local machine for development and testing purposes.
 initialise your go module using:
 ```bash
@@ -37,27 +41,33 @@ Start the API server:
 ```bash
   go run main.go
 ```
+### Endpoints
 
-## Endpoints
-Get Student by ID:
-```bash
-  GET /students/{ID}
-```
-Create Student:
-```bash
-  POST /students
-```
-Update Student:
-```bash
-  PUT /students/{ID}
-```
-Delete Student:
-```bash
-  DELETE /students/{ID}
-```
+- **Create Student:**
+  - Endpoint:
+  - ```POST /students```
+  
+
+- **Read Student:**
+  - Endpoint:
+  - ```GET /students/{ID}```
+  
+
+- **Update Student:**
+  - Endpoint:
+  - ```PUT /students/{ID}```
+  
+
+- **Delete Student:**
+  - Endpoint:
+  - ```DELETE /students/{ID}```
+ 
+
+
 ## Sequence Diagram
 
 <img width="503" alt="uml" src="https://github.com/tavisshiChauhan/Zopsmart-Project/assets/125811955/c4c44cde-471a-4e60-b64d-a6bc863e1ff8">
+
 
 
 
@@ -66,26 +76,30 @@ Delete Student:
 #### Using Postman
 
 **Create Operation:**
-   - Endpoint:
-   - `/api/create`
-   - `http://localhost:9092/students`
+   - Endpoint:`POST /students`
+   - URL: `http://localhost:9092/students`
+   - Request Body:
+     ```json
+     {
+    "ID" : 7,
+    "Name": "Tavisshi Chauhan",
+    "Age": 22,
+    "Class":"Final Year"
+}
      
      *Screenshot: Example of creating a new entry using Postman.*
     <img width="640" alt="Z1" src="https://github.com/tavisshiChauhan/Zopsmart-Project/assets/125811955/e26eaa47-acb0-4099-ae1a-d3546777e9c7">
 
    **Read Operation:**
-   - Endpoint:
-   - `/api/read/{id}`
-   - `http://localhost:9092/students/7`
+   - Endpoint:`/GET /students/{ID}`
+   - URL: `http://localhost:9092/students/7`
 
 **Update Operation:**
-   - Endpoint:
-   - `/api/update/{id}`
-   - `http://localhost:9092/students/7`
+   - Endpoint: `PUT /students/{ID}`
+   - URL`http://localhost:9092/students/7`
 
 **Delete Operation:**
-   - Endpoint:
-   - `/api/delete/{id}`
-   - `http://localhost:9092/students/7`
+   - Endpoint:`DELETE /students/{ID}`
+   - URL:`http://localhost:9092/students/7`
 
 
