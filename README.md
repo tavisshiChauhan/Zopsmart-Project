@@ -64,6 +64,7 @@ Start the API server:
 
 
 
+<img width="503" alt="uml" src="https://github.com/tavisshiChauhan/Zopsmart-Project/assets/125811955/318a0fd6-8e8c-49cf-9c33-6c9412295d97">
 
 ## Testing
 ### Manual Testing
