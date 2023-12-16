@@ -61,5 +61,31 @@ Delete Student:
 
 
 
-
 ## Testing
+### Manual Testing
+#### Using Postman
+
+**Create Operation:**
+   - Endpoint:
+   - `/api/create`
+   - `http://localhost:9092/students`
+     
+     *Screenshot: Example of creating a new entry using Postman.*
+    <img width="640" alt="Z1" src="https://github.com/tavisshiChauhan/Zopsmart-Project/assets/125811955/e26eaa47-acb0-4099-ae1a-d3546777e9c7">
+
+   **Read Operation:**
+   - Endpoint:
+   - `/api/read/{id}`
+   - `http://localhost:9092/students/7`
+
+**Update Operation:**
+   - Endpoint:
+   - `/api/update/{id}`
+   - `http://localhost:9092/students/7`
+
+**Delete Operation:**
+   - Endpoint:
+   - `/api/delete/{id}`
+   - `http://localhost:9092/students/7`
+
+
