@@ -62,8 +62,6 @@ Start the API server:
 
 ## Sequence Diagram
 
-<img width="503" alt="uml" src="https://github.com/tavisshiChauhan/Zopsmart-Project/assets/125811955/c4c44cde-471a-4e60-b64d-a6bc863e1ff8">
-
 
 
 
@@ -75,7 +73,7 @@ Start the API server:
    - Endpoint:`POST /students`
    - URL: `http://localhost:9092/students`
    - Request Body:
-     ```json
+```json
 {
     "ID" : 7,
     "Name": "Tavisshi Chauhan",
