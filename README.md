@@ -82,9 +82,7 @@ Start the API server:
 }
 ```
      
-     *Screenshot: Example of creating a new entry using Postman.*
-     
-
+     ####Screenshot: Example of creating a new entry using Postman.
 <img width="640" alt="Z1" src="https://github.com/tavisshiChauhan/Zopsmart-Project/assets/125811955/7396b246-82cd-452a-95c3-b67d929efa04">
 
    **Read Operation:**
