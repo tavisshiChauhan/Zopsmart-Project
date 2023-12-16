@@ -44,23 +44,19 @@ Start the API server:
 ### Endpoints
 
 - **Create Student:**
-  - Endpoint:
-  - ```POST /students```
+  - Endpoint: ```POST /students```
   
 
 - **Read Student:**
-  - Endpoint:
-  - ```GET /students/{ID}```
+  - Endpoint: ```GET /students/{ID}```
   
 
 - **Update Student:**
-  - Endpoint:
-  - ```PUT /students/{ID}```
+  - Endpoint: ```PUT /students/{ID}```
   
 
 - **Delete Student:**
-  - Endpoint:
-  - ```DELETE /students/{ID}```
+  - Endpoint: ```DELETE /students/{ID}```
  
 
 
@@ -80,15 +76,17 @@ Start the API server:
    - URL: `http://localhost:9092/students`
    - Request Body:
      ```json
-     {
+{
     "ID" : 7,
     "Name": "Tavisshi Chauhan",
     "Age": 22,
     "Class":"Final Year"
 }
+```
      
      *Screenshot: Example of creating a new entry using Postman.*
-    <img width="640" alt="Z1" src="https://github.com/tavisshiChauhan/Zopsmart-Project/assets/125811955/e26eaa47-acb0-4099-ae1a-d3546777e9c7">
+<img width="640" alt="Z1" src="https://github.com/tavisshiChauhan/Zopsmart-Project/assets/125811955/901f75cc-b269-4f4a-ab53-3cefb7514ab8">
+
 
    **Read Operation:**
    - Endpoint:`/GET /students/{ID}`
