@@ -11,7 +11,7 @@ import (
 var dbClient *mongo.Client
 
 func init() {
-	uri := "mongodb+srv://prakharjain496:golangdev@golangdb.v2pxtfw.mongodb.net/?retryWrites=true&w=majority"
+	uri := "mongodb+srv://tavisshiChauhan:tavishi@cluster0.mz8vc3l.mongodb.net/?retryWrites=true&w=majority"
 	if uri == "" {
 		log.Fatal("You must set your 'MONGODB_URI' environment variable. See\n\t https://www.mongodb.com/docs/drivers/go/current/usage-examples/#environment-variable")
 	}
